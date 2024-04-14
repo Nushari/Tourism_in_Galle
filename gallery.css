@@ -1,0 +1,153 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    padding: 10px 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; 
+    height: auto; 
+    margin-right: 10px;
+}
+
+.logo-text {
+    color: darkblue;
+    font-size: 24px; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkblue;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 25px;
+}
+
+
+.scroll-container {
+    width: 100%;
+    overflow-x: auto; 
+    white-space: nowrap; 
+    padding: 20px;
+  }
+  
+  
+  .scroll-container img {
+    width: 600px; 
+    height: auto; 
+    margin-right: 10px; 
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+  }
+.social-icons a {
+    margin-bottom: 10px; 
+}
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+	font-family: Georgia;
+}
+
+th, td {
+    border: 1px solid #00695C ;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #99FFFF;
+}
+
+tr:nth-child(even) {
+    background-color: #CDDC39;
+}
+
+tr:hover {
+    background-color: #99CCCC ;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #006064;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+   text-decoration: underline;
+}
+body {
+	background-color:  #F8F9F9  ;
+}
